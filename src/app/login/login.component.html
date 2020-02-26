@@ -1,0 +1,12 @@
+<ion-content class="ion-text-center">
+  <img src="https://logopond.com/logos/139c9124428373a6868f08c8bdfa57ab.png" style="width: 200px;">
+  <ion-card>
+    <ion-item>
+      <ion-input type="text" placeholder="username" [(ngModel)]="username" ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="password" placeholder="password" [(ngModel)]="password" ></ion-input>
+    </ion-item>
+  </ion-card>
+  <ion-button (click)="login()">Login</ion-button>
+</ion-content>
